@@ -27,7 +27,7 @@ watchTutorialOnCallBack((message) => {
     console.log('Failure', error)
 })
 /**************************** End of Callback functions *******************************************/
-
+/**************************** Promises ***********************************************************/
 function watchTutorialOnPromise(){
     return new Promise((resolve, reject) => {
         if(userLeft) {
